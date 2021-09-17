@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparsion</title>
+</head>
+<body>
+    <h3>Js Comparsion and Conditionals</h3>
+
+    <script>
+        let a=4
+        if (a>=3){
+            console.log("Yes !")
+        }
+        // let a=1
+        //if (a>=3){
+        // console.log("Yes !")
+        //} 
+        
+    
+        if (a>=3){ //block let is block scope
+            let a=10;
+            console.log(":)", a);
+        }
+        console.log(a)
+
+        if (a%2===0)
+        console.log('True again')
+
+        if(a%2===1){
+            console.log('Cannot devide by 2');
+        }else{
+            console.log('Can devide by 2');
+        }
+
+        if(a>0){
+            console.log('Postive');    
+        }else if(a<0){
+            console.log('Negative');
+        }else{
+            console.log('Zero');
+        }
+
+        let ans =confirm('Are you sure');
+        console.log(ans);
+        if(ans){
+            console.log('User has confirm');
+        }else{
+            console.log('User has not confirm');
+        }
+        
+        let yourName =prompt('Enter your name!');
+        alert('Welcome !' + yourName);
+        alert(`Welcome!  ${yourName}`);
+
+
+
+    </script>
+</body>
+</html>
