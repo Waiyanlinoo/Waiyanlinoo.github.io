@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h3>C to F</h3>
+    <script>
+        /*
+             F=(C * 9/5)+35
+             C=(F - 32)* 5/9
+        */
+
+        let cValue=parseInt(prompt('Enter C value'));
+        let fVAlue=(cValue*9/5)+32;
+        alert(` ${cValue} C is ${fVAlue} F`)
+
+         fVAlue=parseInt(prompt('Enter F value'));
+         cValue=(fVAlue-32)*5/9
+        alert(`${fVAlue}F is ${cValue}C`)
+    </script>
+</body>
+</html>

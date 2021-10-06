@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAM</title>
+</head>
+<body>
+    <h3>EXAM</h3>
+    
+    <label for="Subject1">Subject1</label>
+    <input type="number" name="Subject1" id="Subject1"><br><br>
+    <label for="Subject2">Subject2</label>
+    <input type="number" name="Subject2" id="Subject2"><br><br>
+    <label for="Subject3">Subject3</label>
+    <input type="number" name="Subject3" id="Subject3"><br><br>
+    <button onclick="Calculate()">Calculate</button><br><br>
+    <label id="total"></label><br>
+    <label id="result">Result</label>
+
+    <script>
+
+
+        function Calculate(){
+           let Subject1=parseInt(document.querySelector ("#Subject1").value);
+           let Subject2=parseInt(document.querySelector("#Subject2").value);
+           let Subject3=parseInt(document.querySelector("#Subject3").value);
+           
+           let max=100;
+           let min=0
+            if((Subject1>=0&&Subject1<=max)&&(Subject2>=0 && Subject2<=max)&&(Subject3>=0 && Subject3<=max)){
+
+                console.log(Subject1,Subject2,Subject3)
+
+                let sum=Subject1+Subject2+Subject3
+        
+                let total=`Sum :${sum} `
+                console.log(total);
+                document.querySelector("#total").innerHTML=total;
+
+                let examResult="";
+                if(Subject1>=40 && Subject2>=40 && Subject3>=40){
+                examResult ="Pass!";
+                    if(Subject1>=80 || Subject2>=80 || Subject3>=80){
+                        examResult='Pass with Distinction!'
+                    }
+                }else{
+                examResult="Fail!";
+                }
+                document.querySelector("#result").innerHTML=examResult;
+            }else{
+            alert('Please Enter Marks Between 0 to 100')
+            }
+        }
+    
+    </script>
+</body>
+</html>

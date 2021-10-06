@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS function</title>
+</head>
+<body>
+    <h3>
+        JS function
+    </h3>
+    <script>
+
+       /*getData();
+
+        function getData(){
+            console.log(" Hi !");
+        }*/
+
+        getData('green',21);
+        getData('black')
+        function getData(color,age){
+
+            if(age){//null,undefined,0,"Empty String"=>flase
+                console.log(` Hi ${color} and ${age}`);
+            }else{
+                console.log(` Hi ${color}`);
+            }
+        
+                /*
+            if (typeof(age)!=='undefined'){
+                console.log(` Hi ${colour} and ${age}`);
+            }else{
+                console.log(` Hi ${colour}`);
+            }*/
+           
+        }
+
+        getData2();
+        getData2('green');
+        getData2(undefined,24)
+        function getData2(color="red",age="21"){
+            console.log(` Hi ${color} and ${age}`);
+        }
+     
+        
+        /* let result= getData3()
+        console.log(result);
+        function getData3(){
+            return 'HI !'
+        }*/
+
+        let result= getData3(21,12,634)
+        console.log(result.toFixed(2));
+        function getData3(num1,num2,num3){
+            let avg=(num1+num2+num3)/3
+            return avg
+        }
+
+        let student=getData4()
+        console.log(student);
+        let [name,age]=getData4();
+        console.log(name,age);
+        function getData4(){
+
+            return ['Mg Mg',21];
+        }
+
+
+        const getData5=()=>{
+            const doSomething=()=>{
+                console.log('this is Do Something');
+            }
+            doSomething();
+            return 'ok'
+        }
+        let myResult=getData5();
+        console.log(myResult);
+
+        
+
+    </script>
+</body>
+</html>

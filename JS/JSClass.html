@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Class</title>
+</head>
+<body>
+    <h3>JS Class</h3>
+    <script>
+
+        class Car{
+            brand ;
+            model ;
+            showdata(){
+                console.log(` ${this.brand} and ${this.model}`);
+            }
+        }
+
+        const nissan=new Car();
+        const fiet=new Car();
+        console.log (nissan);
+        console.log(fiet);
+
+        nissan.brand='Nissan'
+        nissan.model="Sunny"
+        fiet.brand="Fiet"
+        fiet.model="Panda"
+        console.log(nissan,fiet);
+
+        nissan.showdata();
+        fiet.showdata();
+        
+
+
+        class Person{
+            constructor(name,city){
+                this.name=name;
+                this.city=city;
+
+            }
+            showdata(){
+                console.log(`My name is ${this.name} and I live in ${this.city}`);
+            }
+            static SayHi(){
+                console.log('Hi From Person Static Method!');
+            }
+        }
+
+        Person.SayHi();
+
+        const mgmg =new Person('Mg Mg',"yangon");
+        console.log(mgmg);
+        mgmg.showdata();
+
+        const mama=new Person('MA MA','Mandalay');
+        mama.showdata();
+
+        class Programmer extends Person{
+            constructor(name,city,laptop){
+                super(name,city);
+                this.laptop=laptop
+            }
+            showdata(){
+                super.showdata();
+                console.log(`My laptop is ${this.laptop}`);
+            }
+        }
+
+        const john=new Programmer('John','Tauggyi','Dell');
+        john.showdata();
+
+        
+
+    </script>
+</body>
+</html>

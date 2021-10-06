@@ -1,0 +1,24 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ /*top right buttom left*/
+ /*top L&R buttom8*/
+ /*T&B  L&R*/
+
+.marginone{
+    margin: 20px;
+    border: solid black;
+}
+
+.margintwo{
+    margin: 10px 40px;
+    border: solid red;
+}
+
+.marginthree{
+    margin: 10px 30px 50px;
+    border: solid green
+}

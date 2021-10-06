@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>JS Loop</h3>
+    <script>
+        /*let i=1;
+        while(i<11){
+            if(i<5)break
+            document.write(`<h3>${i}Hello World </h3>`)
+            i++;
+        }*/
+        let e=1;
+        while(e<11){
+            e++
+            if(e<5)continue;
+            document.write(`<h3>${e}Hello World </h3>`) 
+        }
+
+        const List=['a','b','c','d']
+        i=0
+        while(i<List.length){
+            console.log(List[i],i);
+            i++
+        }
+        
+
+
+        i=0 ;
+        do{
+            console.log(List[i],i);
+            i++
+        }while(i<List.length)
+
+
+        do{
+            let number=prompt('Enter a number!');
+            if(isNaN(number)){
+                alert(`Wrong Input`)
+            }else{
+                if(number%2==1){
+                    alert(`${number} is ODD`);    
+                }else{
+                    alert(`${number} is EVEN`);
+                }
+            }
+            var ans=confirm('Wanna try again?');
+            
+        }while(ans)
+
+
+        for(let i=0;i<List.length;i++){
+            console.log(List[i],i);
+        }
+
+        for(const value of List){
+            console.log(value);
+        }
+        
+        
+
+    </script>
+</body>
+</html>

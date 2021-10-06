@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Loop Exercises</title>
+</head>
+<body>
+    <h3>JS Loop Exercises</h3>
+    
+    <script>
+        //sum of 1 to 100 using while loop
+
+        let sum=0
+        let i =1;
+        while(i<101){
+            //sum=sum+i
+            sum+=i;
+            i++;
+        }
+        console.log(`Sum of 1 to 100 : ${sum}`);
+
+        //sum of 1 to 100 using For loop
+        sum=0
+        for(let i=1;i<101; i++){
+            sum+=i
+        }
+        console.log(`sum of 1 to 100 using For loop : ${sum}`);
+
+        //let number=5;
+        let number=prompt('Enter a number')
+         i=1;
+        while(i<13){
+            Result=i*number
+            document.write(`${number}* ${i} = ${Result} <br><br>`);
+            i++;
+        }
+
+        /*
+          * * *
+          * * *
+          * * *
+          * * *
+          * * *
+        */
+
+        //nested loop!
+        for(let i=1;i<6;i++)
+            //for(let i=5; i>=1; i--)           
+            {
+            for(let j=1;j<=i;j++){
+                document.write(' * ')
+            }
+            document.write('<br>')
+        }
+        
+
+        number=1
+        let count=prompt('Enter a number for Row')
+        for(let i=1;i<count;i++){
+            for(let j=1;j<=i;j++){
+                document.write(` ${number++}  `)
+            }
+            document.write('<br>')
+        }
+        
+
+   </script>
+</body>
+</html>

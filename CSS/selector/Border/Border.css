@@ -1,0 +1,42 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*Border*/
+.borderone{
+    border: 1px solid /*2*double*/ black;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.bordertwo{
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(2, 114, 158);
+    border-left: 5px solid rgb(189, 189, 189);
+    background-color: gray;
+}
+
+.styleone{
+    border-style: double;
+}
+.styletwo{
+    border-style: /*hidden*/ none;
+}
+.stylethree{
+    border-style: solid double dotted dashed;
+    /*top right buttom left*/
+    border-style: solid double dotted ;
+    /*top L&R buttom8*/
+    border-style: solid double;
+    /*T&B  L&R*/
+}
+
+
+.widthone{
+    border-width: 1px 5px 10px 5px;
+    border-style: solid;
+}
+
