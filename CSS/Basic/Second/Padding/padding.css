@@ -1,0 +1,15 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.padding{
+    /*padding: 20px 40px 70px 30px;*/
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+    padding-left: 30px; ;
+    border:1px  solid black;
+
+}

@@ -1,0 +1,50 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.relative_parent{
+    border: 1px solid red;
+    width: 1000px;
+    height: 500Px;
+}
+
+.relative{
+    width: 400px;
+    height: 200px ;
+    border: 1px solid green;
+
+    /*div or other*/
+    position: relative;
+    top: 100px;
+    left: 140px;
+}
+
+
+.absolute_parent{
+
+    /* =*/position: relative;
+    width: 1000px;
+    height: 500px ;
+    border: 1px solid rgb(3, 3, 102);
+}
+
+.absolute{
+    
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+
+    /*page*/
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 1100px;
+}

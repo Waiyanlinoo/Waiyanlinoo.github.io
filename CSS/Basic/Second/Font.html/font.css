@@ -1,0 +1,19 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.online{
+    font-family: 'Ephesis', cursive;
+}
+
+@font-face {
+    font-family: lobster;
+    src: url(fontsty/Akronim-Regular.ttf);
+}
+
+.offline{
+    font-family: lobster;
+}
+    

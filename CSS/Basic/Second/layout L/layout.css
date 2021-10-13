@@ -1,0 +1,13 @@
+/*inline*/
+.google,.facebook{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+}
+
+/*Block*/
+.block{
+    display: inline-block;
+    border: 1px solid red;
+    width: 400px;
+}

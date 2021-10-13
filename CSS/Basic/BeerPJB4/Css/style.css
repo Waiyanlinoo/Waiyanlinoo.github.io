@@ -1,0 +1,232 @@
+/*pexels.com*/
+@font-face {
+    font-family:great ;
+    src: url(../Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Logo{
+    width: 100px;
+    height: 70px;
+    display: block;
+    margin-left: 10px;
+}
+
+
+.nav_brand{
+    display: inline-block;
+}
+
+.nav_background ul{
+    float:right;
+}
+/*inline Cant margin padding inline block can*/
+.nav_background ul li{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    margin:40px;
+    padding-top: 0px;
+}
+
+.nav_background ul li:hover{
+    color: rgb(159, 149, 243);
+    transform: translate(1px,2px);
+    text-decoration: 1s;
+}
+
+.nav_background{
+    background-color: rgb(5, 1, 24);
+    height: 100px;
+}
+
+.WWw{
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    font-family: great;
+}
+
+.background{
+    background-image: url(../Img/background.jpg);
+    height: 870px;
+}
+
+.beerbar{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    color: gold;
+    font-family: great;
+    font-size: 50px;
+}
+
+.shop{
+    border: 1px solid gold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    color: gold;
+    margin-left: 130px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 600px auto auto;
+    background-color: black;
+    color: white;
+}
+
+
+
+.grid div{
+    border: 2px solid rgb(58, 57, 57);
+    text-align: center;
+    padding: 40px 30px 30px 40px;
+}
+
+.grid .gridone{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: left;
+    padding: 70px 50px 70px 100px;
+
+}
+
+.perfect{
+    color: gold;
+}
+
+.readmore{
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-top: 15px;
+}
+
+.para{
+    margin-top: 10px;
+}
+
+.whitebackground{
+    background-color: gray;
+    height: 450px;
+    border: 1px solid white;
+}
+
+.whitebackground img{
+    width: 500px; ;
+    height: 350px;
+    float: left;
+    border: 1px solid black;
+    margin: 50px 100px;
+    border-radius: 5px;
+}
+
+.whitebackground_text{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 90%;
+}
+
+.whitebackground_text h2{
+    margin-bottom: 10px;
+    color: rgba(255, 217, 0, 0.842);
+}
+.whitebackground_text h1{
+    margin-bottom: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+.blackbackground{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+
+.blackbackground img{
+    float: right;
+    width: 800px;
+    height: 400px;
+    margin: 50px 100px 0px 0px;
+}
+
+.blackbackground_text{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    width: 600px;
+    height: 350px;
+}
+
+.blackbackground_text h1{
+    margin-bottom: 10px;
+
+}
+
+.Whtbackgroundbody{
+    height: 500px;
+}
+
+.Whtbackground{
+    width: 25%;
+    float: left;
+    margin: 50px 0px 0px 300px;
+}
+
+.Whtbackground p ,.Whtbackground2 p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.Whtbackground h1,.Whtbackground2 h1{
+    margin-bottom: 20px;
+}
+
+.perfect2{
+    color: rgb(24, 16, 70);
+}
+
+.Whtbackground2{
+    float: right;
+    margin-top: 50px;
+    margin-right: 330px;
+    width: 25%;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    height: 70px;
+}
+
+.footer p{
+    display: inline-block;
+}
+
+.footer a{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+    color: gold;
+}
+
+.Desing_by{
+     margin-top: 30px;
+     margin-left: 50px;
+}
+
+footer p b{
+    color: gold;
+    margin-left: 20px;
+}
+

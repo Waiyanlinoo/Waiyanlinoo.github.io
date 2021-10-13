@@ -1,0 +1,46 @@
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive,.gridsix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridone div,.gridtwo div,.gridthree div,.gridfour div,.gridfive div,.gridsix div{
+    color: seashell;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+   /* border: 1px solid white;*/
+}
+
+.gridtwo{
+    grid-column-gap: 50px;
+}
+
+.gridthree{
+    grid-row-gap: 30px;
+}
+
+.gridfour{
+    grid-gap: 30px;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*.five{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}*/
+
+.two{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
